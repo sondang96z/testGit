@@ -1,12 +1,12 @@
 class Cat {}
 Cat.prototype.run = function(params) {
-	console.log(running);
+	console.log('running');
 };
 
 Cat.prototype.eat = function(param) {
-	console.log('eat');
+	console.log('Eating');
 };
 
 Cat.prototype.sleep = function(param) {
-	console.log('sleepp');
+	console.log('Sleep');
 };
